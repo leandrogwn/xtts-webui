@@ -1504,20 +1504,20 @@ if __name__ == "__main__":
                     #load_params_tts_btn = gr.Button(value="Load params for TTS from output folder")
                     xtts_checkpoint0 = gr.Textbox(
                         label="XTTS checkpoint path:",
-                        value="/model/model.pth",
+                        value="model/model.pth",
                     )
                     xtts_config0 = gr.Textbox(
                         label="XTTS config path:",
-                        value="/model/config.json",
+                        value="model/config.json",
                     )
 
                     xtts_vocab0 = gr.Textbox(
                         label="XTTS vocab path:",
-                        value="/model/vocab.json",
+                        value="model/vocab.json",
                     )
                     xtts_speaker0 = gr.Textbox(
                         label="XTTS speaker path:",
-                        value="/model/speakers_xtts.pth",
+                        value="model/speakers_xtts.pth",
                     )
                     progress_load0 = gr.Label(
                         label="Progress:"
